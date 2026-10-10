@@ -1,0 +1,17 @@
+{
+ "result_set_size": 17792,
+ "operator_timing": 66.225170607,
+ "operator_rows_scanned": 407652,
+ "cumulative_rows_scanned": 407652,
+ "operator_cardinality": 2224,
+ "operator_type": "TABLE_SCAN",
+ "cumulative_cardinality": 2224,
+ "extra_info": {
+  "Function": "READ_PARQUET",
+  "Projections": "",
+  "Filters": "event_ts>='2026-01-11 00:00:00'::TIMESTAMP AND event_ts<='2026-01-12 00:00:00'::TIMESTAMP AND event_ts IS NOT NULL",
+  "Estimated Cardinality": "40765"
+ },
+ "cpu_time": 66.225170607,
+ "children": []
+}

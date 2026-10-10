@@ -1,0 +1,17 @@
+{
+ "result_set_size": 31688,
+ "operator_timing": 0.5288453799999997,
+ "operator_rows_scanned": 408240,
+ "cumulative_rows_scanned": 408240,
+ "operator_cardinality": 3961,
+ "operator_type": "TABLE_SCAN",
+ "cumulative_cardinality": 3961,
+ "extra_info": {
+  "Function": "READ_PARQUET",
+  "Projections": "value",
+  "Filters": "country='US' AND country IS NOT NULL",
+  "Estimated Cardinality": "40824"
+ },
+ "cpu_time": 0.5288453799999997,
+ "children": []
+}

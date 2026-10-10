@@ -1,0 +1,25 @@
+{
+ "result_set_size": 304,
+ "operator_timing": 5.188909253,
+ "operator_rows_scanned": 423000,
+ "cumulative_rows_scanned": 423000,
+ "operator_cardinality": 4,
+ "operator_type": "TABLE_SCAN",
+ "cumulative_cardinality": 4,
+ "extra_info": {
+  "Function": "READ_PARQUET",
+  "Projections": [
+   "user_id",
+   "event_ts",
+   "event_type",
+   "device",
+   "value",
+   "country",
+   "date"
+  ],
+  "Filters": "user_id=25026 AND user_id IS NOT NULL",
+  "Estimated Cardinality": "42300"
+ },
+ "cpu_time": 5.188909253,
+ "children": []
+}

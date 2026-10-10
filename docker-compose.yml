@@ -1,0 +1,14 @@
+services:
+  bench:
+    build: .
+    env_file: .env.example
+    volumes:
+      - .:/app
+      - benchdata:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import duckdb, pyarrow"]
+      interval: 10s
+    command: ["bash", "-c", "make layouts && make queries"]
+
+volumes:
+  benchdata:

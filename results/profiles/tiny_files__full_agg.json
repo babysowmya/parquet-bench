@@ -1,0 +1,16 @@
+{
+ "result_set_size": 160000,
+ "operator_timing": 25.82742579600001,
+ "operator_rows_scanned": 38524,
+ "cumulative_rows_scanned": 38524,
+ "operator_cardinality": 10000,
+ "operator_type": "TABLE_SCAN",
+ "cumulative_cardinality": 10000,
+ "extra_info": {
+  "Function": "READ_PARQUET",
+  "Projections": "event_type",
+  "Estimated Cardinality": "9631"
+ },
+ "cpu_time": 25.82742579600001,
+ "children": []
+}

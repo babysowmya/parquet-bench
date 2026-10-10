@@ -1,0 +1,2 @@
+input_files,output_files,wall_s,peak_rss_mb,rows_before,rows_after,checksum_match
+101913,90,286.11,174.4,200000,200000,true
